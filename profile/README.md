@@ -28,7 +28,7 @@
     </p>
     <details>
         <summary>More ...</summary>
-        <img width="500px" src="https://github-readme-stats-beryl-chi-96.vercel.app/api/top-langs/?username=x404x-dev&layout=compact&locale=en" />
+        <img width="500px" src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=discord_old_blurple)](https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=discord_old_blurple" />
     </details>
 </ul>
 
