@@ -30,9 +30,34 @@ jobs:
           TEMPLATE_PATH="src/README.md"
           OUTPUT_PATH="profile/README.md"
 
+          ICONS_HTML=""
+          for icon in $(ls src/icons/*.svg | sort -f); do
+            filename=$(basename "$icon")
+            if [[ "$filename" == *-Dark.svg ]]; then
+              base="${filename%-Dark.svg}"
+              light_file="${base}-Light.svg"
+              if [ -f "src/icons/$light_file" ]; then
+                ICONS_HTML+="  <picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/$USERNAME/.github/refs/heads/main/src/icons/$filename\" /><img src=\"https://raw.githubusercontent.com/$USERNAME/.github/refs/heads/main/src/icons/$light_file\" alt=\"$base\" width=\"40\" height=\"40\"/></picture>&nbsp;\n"
+              fi
+            elif [[ "$filename" == *-Light.svg ]]; then
+              continue
+            else
+              name="${filename%.svg}"
+              ICONS_HTML+="  <picture><img src=\"https://raw.githubusercontent.com/$USERNAME/.github/refs/heads/main/src/icons/$filename\" alt=\"$name\" width=\"40\" height=\"40\"/></picture>&nbsp;\n"
+            fi
+          done
+
           if [ -f "$TEMPLATE_PATH" ]; then
             sed -e "s|%{USERNAME}%|$USERNAME|g" -e "s|%{DISPLAYNAME}%|$DISPLAYNAME|g" "$TEMPLATE_PATH" > "$OUTPUT_PATH"
-            echo "Successfully generated $OUTPUT_PATH"
+            python3 -c "
+              import sys
+              with open('$OUTPUT_PATH', 'r') as f:
+                  content = f.read()
+              content = content.replace('%{LANGUAGES&TOOLS}%', '''$ICONS_HTML''')
+              with open('$OUTPUT_PATH', 'w') as f:
+                  f.write(content)
+            "
+            echo "Successfully generated $OUTPUT_PATH with sorted icons"
           else
             echo "Error: Template file $TEMPLATE_PATH not found!"
             exit 1
