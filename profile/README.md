@@ -24,21 +24,40 @@
 
 ### 🛠️ Languages & Tools
 <p align="left">
-  <a href="https://wiki.botdesignerdiscord.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="BDFD" width="40" height="40"/></a>
+  <a href="https://wiki.botdesignerdiscord.com" target="_blank" rel="noreferrer"><picture>
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="BDFD" width="40" height="40"/>
+  </picture></a>
   &nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Html.svg" alt="HTML5" width="40" height="40"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><picture>
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/HTML.svg" alt="HTML5" width="40" height="40"/>
+  </picture></a>
   &nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Css.svg" alt="CSS3" width="40" height="40"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><picture>
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/CSS.svg" alt="CSS3" width="40" height="40"/>
+  </picture></a>
   &nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/JavaScript.svg" alt="JavaScript" width="40" height="40"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><picture>
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/JavaScript.svg" alt="JavaScript" width="40" height="40"/>
+  </picture></a>
   &nbsp;
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Python.svg" alt="Python" width="40" height="40"/></a>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Python-Dark.svg" />
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Python-Light.svg" alt="Python" width="40" height="40"/>
+  </picture></a>
   &nbsp;
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/NodeJS.svg" alt="Node.js" width="40" height="40"/></a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/NodeJS-Dark.svg" />
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/NodeJS-Light.svg" alt="Node.js" width="40" height="40"/>
+  </picture></a>
   &nbsp;
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Express.svg" alt="Express" width="40" height="40"/></a>
+  <a href="https://expressjs.com" target="_blank" rel="noreferrer"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/ExpressJS-Dark.svg" />
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/ExpressJS-Light.svg" alt="Express" width="40" height="40"/>
+  </picture></a>
   &nbsp;
-  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/MongoDB.svg" alt="MongoDB" width="40" height="40"/></a>
+  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"><picture>
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/MongoDB.svg" alt="MongoDB" width="40" height="40"/>
+  </picture></a>
 </p>
 
 <details>
@@ -55,6 +74,5 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake.svg" />
   <img align="center" width="100%" src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake.svg" alt="Snake Animation" />
 </picture>
