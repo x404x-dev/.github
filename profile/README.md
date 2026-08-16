@@ -1,51 +1,56 @@
-<h2 align="center">👋 Hi, I'm Marlernix Mc! Nice to meet you! </h2>
+<h1 align="center">👋 Hi, I'm Marlernix Mc!</h1>
 
-<p>> What skills do i have?</p>
-<ul>
-    <li>[🌐] Website Development</li>
-    <li>[🤖] Discord Bot Development</li>
-    <li>[💻] Minecraft Server Development</li>
-</ul>
+<p align="center">
+  🚀 <b>Indie Developer</b> | 👑 Owner of <b>Karasu's Team</b><br>
+  <i>An aspiring developer passionate about building web apps, Discord bots, and Minecraft servers.</i>
+</p>
 
-<p>> Languages and Tools.</p>
-<ul>
-    <p>
-        <a href="https://wiki.botdesignerdiscord.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="bdfd" width="40" height="40"/></a>
-        &nbsp;
-        <a href="https://developer.mozilla.org/en-US/search?q=html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/></a>
-        &nbsp;
-        <a href="https://developer.mozilla.org/en-US/search?q=css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/></a>
-        &nbsp;
-        <a href="https://developer.mozilla.org/en-US/search?q=javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/></a>
-        &nbsp;
-        <a href="https://developer.mozilla.org/en-US/search?q=python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/></a>
-        &nbsp;
-        <a href="https://developer.mozilla.org/en-US/search?q=nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/></a>
-        &nbsp;
-        <a href="https://developer.mozilla.org/en-US/search?q=express" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=express" alt="express" width="40" height="40"/></a>
-        &nbsp;
-        <a href="https://developer.mozilla.org/en-US/search?q=mongodb" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/></a>
-    </p>
-    <details>
-        <summary>More ...</summary>
-        <img width="500px" src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=discord_old_blurple)](https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=discord_old_blurple" />
-    </details>
-</ul>
+<p align="center">
+  <a href="https://github.com/x404x-dev" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://youtube.com/@x404x.dev" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  &nbsp;
+  <a href="https://dsc.mcteam.io.vn" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+</p>
 
 ---
+
+### 📌 What I Do
+- 🌐 **Web Development:** Building modern websites and personal portfolio projects.
+- 🤖 **Discord Bot Development:** Creating feature-rich moderation, entertainment, and utility bots.
+- 💻 **Minecraft Server Development:** Configuring plugins, optimizing performance, and building community servers.
+
+---
+
+### 🛠️ Languages & Tools
+<p align="left">
+  <a href="https://wiki.botdesignerdiscord.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="bdfd" width="40" height="40"/>
+  </a>
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,py,nodejs,express,mongodb,git,vscode,github,docker" alt="skill-icons" />
+</p>
+
+<details>
+  <summary>📊 <b>Most Used Languages</b></summary>
+  <br>
+  <p align="center">
+    <img width="500px" src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=discord_old_blurple" alt="Top Languages" />
+  </p>
+</details>
+
+---
+
+### 🐍 GitHub Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake.svg" />
-  <img align="center" width="100%" src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake.svg" />
+  <img align="center" width="100%" src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake.svg" alt="Snake Animation" />
 </picture>
-
----
-
-<p align="center">
-    <a href="https://github.com/x404x-dev" target="blank"> <img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github" alt="GitHub" height="50" /></a>
-    &nbsp;
-    <a href="https://youtube.com/@x404x.dev" target="blank"> <img src="https://img.shields.io/badge/-YouTube-darkred?style=for-the-badge&logo=youtube" alt="YouTube" height="50" /></a>
-    &nbsp;
-    <a href="https://dsc.mcteam.io.vn" target="blank"> <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" height="50" /></a>
-</p>
