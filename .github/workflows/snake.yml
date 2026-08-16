@@ -24,18 +24,11 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            src/snake/snake.svg
+            src/snake/snake-dark.svg?palette=github-dark
+            src/snake/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Move files to src/snake/
-        run: |
-          mkdir -p src/snake
-          mv dist/snake.svg src/snake/
-          mv dist/snake-dark.svg src/snake/
-          mv dist/ocean.gif src/snake/
 
       - name: Commit and Push to Main Branch
         uses: stefanzweifel/git-auto-commit-action@v5
