@@ -64,7 +64,7 @@ jobs:
           for base in sorted(icon_map.keys(), key=lambda s: s.lower()):
               if base not in links:
                   links[base], json_updated = '', True
-              link = links[base].strip() if links[base].strip() != "" else f'https://github.com/{username}'
+              link = links[base].strip() if links[base].strip() != '' else f'https://github.com/{username}'
               data = icon_map[base]
 
               if 'dark' in data and 'light' in data:
