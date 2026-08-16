@@ -1,46 +1,45 @@
 name: GitHub Snake Game
 
 on:
-    schedule:
-        - cron: "0 0 * * *"
-    workflow_dispatch:
-    push:
-        branches:
-            - main
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
-    contents: write
+  contents: write
 
 jobs:
-    generate:
-        runs-on: ubuntu-latest
-        timeout-minutes: 10
-        steps:
-            - name: Checkout Repository
-              uses: actions/checkout@v4
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-            - name: Generate GitHub Contributions Snake Animations
-              uses: Platane/snk@v3
-              with:
-                  github_user_name: ${{ github.repository_owner }}
-                  outputs: |
-                      dist/snake.svg
-                      dist/snake-dark.svg?palette=github-dark
-                      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-              env:
-                  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      - name: Generate GitHub Contributions Snake Animations
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-            - name: Move files to src/snake/
-              run: |
-                  sudo mkdir -p src/snake
-                  sudo mv dist/snake.svg src/snake/
-                  sudo mv dist/snake-dark.svg src/snake/
-                  sudo mv dist/ocean.gif src/snake/
-                  sudo chmod -R 755 src/snake
+      - name: Move files to src/snake/
+        run: |
+          mkdir -p src/snake
+          mv dist/snake.svg src/snake/
+          mv dist/snake-dark.svg src/snake/
+          mv dist/ocean.gif src/snake/
 
-            - name: Commit and Push to Main Branch
-              uses: stefanzweifel/git-auto-commit-action@v5
-              with:
-                  branch: main
-                  file_pattern: 'src/snake/*'
-                  commit_message: "Update snake animation [skip ci]"
+      - name: Commit and Push to Main Branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: main
+          file_pattern: 'src/snake/*'
+          commit_message: "style: update snake animation [skip ci]"
