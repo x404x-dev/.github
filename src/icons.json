@@ -1,14 +1,14 @@
 {
-  "BotDesignerForDiscord": "",
-  "CSS": "",
-  "DiscordJS": "",
-  "ExpressJS": "",
-  "Github": "",
-  "HTML": "",
-  "JavaScript": "",
-  "MongoDB": "",
-  "NodeJS": "",
-  "Python": "",
-  "Vercel": "",
-  "VSCode": ""
+  "BotDesignerForDiscord": "https://wiki.botdesignerdiscord.com",
+  "CSS": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "DiscordJS": "https://discord.js.org",
+  "ExpressJS": "https://expressjs.com",
+  "Github": "https://github.com",
+  "HTML": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "JavaScript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "MongoDB": "https://www.mongodb.com",
+  "NodeJS": "https://nodejs.org",
+  "Python": "https://www.python.org",
+  "Vercel": "https://vercel.com",
+  "VSCode": "https://code.visualstudio.com"
 }
