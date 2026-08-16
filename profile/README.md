@@ -6,17 +6,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/x404x-dev" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+  <a href="https://github.com/x404x-dev" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   &nbsp;
-  <a href="https://youtube.com/@x404x.dev" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
+  <a href="https://youtube.com/@x404x.dev" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
   &nbsp;
-  <a href="https://dsc.mcteam.io.vn" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
+  <a href="https://dsc.mcteam.io.vn" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
 ---
@@ -30,11 +24,21 @@
 
 ### 🛠️ Languages & Tools
 <p align="left">
-  <a href="https://wiki.botdesignerdiscord.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="bdfd" width="40" height="40"/>
-  </a>
+  <a href="https://wiki.botdesignerdiscord.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="BDFD" width="40" height="40"/></a>
   &nbsp;
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,py,nodejs,express,mongodb,git,vscode,github,docker" alt="skill-icons" />
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Html.svg" alt="HTML5" width="40" height="40"/></a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Css.svg" alt="CSS3" width="40" height="40"/></a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/JavaScript.svg" alt="JavaScript" width="40" height="40"/></a>
+  &nbsp;
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Python.svg" alt="Python" width="40" height="40"/></a>
+  &nbsp;
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/NodeJS.svg" alt="Node.js" width="40" height="40"/></a>
+  &nbsp;
+  <a href="https://expressjs.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Express.svg" alt="Express" width="40" height="40"/></a>
+  &nbsp;
+  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/MongoDB.svg" alt="MongoDB" width="40" height="40"/></a>
 </p>
 
 <details>
