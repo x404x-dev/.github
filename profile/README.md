@@ -24,7 +24,19 @@
 
 ### 🛠️ Languages & Tools
 <p align="left">
-%{LANGUAGES&TOOLS}%
+  <picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="BotDesignerForDiscord" width="40" height="40"/></picture>&nbsp;
+  <picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/CSS.svg" alt="CSS" width="40" height="40"/></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/DiscordJS-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/DiscordJS-Light.svg" alt="DiscordJS" width="40" height="40"/></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/ExpressJS-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/ExpressJS-Light.svg" alt="ExpressJS" width="40" height="40"/></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Github-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Github-Light.svg" alt="Github" width="40" height="40"/></picture>&nbsp;
+  <picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/HTML.svg" alt="HTML" width="40" height="40"/></picture>&nbsp;
+  <picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/JavaScript.svg" alt="JavaScript" width="40" height="40"/></picture>&nbsp;
+  <picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/MongoDB.svg" alt="MongoDB" width="40" height="40"/></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/NodeJS-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/NodeJS-Light.svg" alt="NodeJS" width="40" height="40"/></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Python-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Python-Light.svg" alt="Python" width="40" height="40"/></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Vercel-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Vercel-Light.svg" alt="Vercel" width="40" height="40"/></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/VSCode-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/VSCode-Light.svg" alt="VSCode" width="40" height="40"/></picture>&nbsp;
+
 </p>
 
 <details>
