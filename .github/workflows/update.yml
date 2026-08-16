@@ -50,12 +50,12 @@ jobs:
           if [ -f "$TEMPLATE_PATH" ]; then
             sed -e "s|%{USERNAME}%|$USERNAME|g" -e "s|%{DISPLAYNAME}%|$DISPLAYNAME|g" "$TEMPLATE_PATH" > "$OUTPUT_PATH"
             python3 -c "
-              import sys
-              with open('$OUTPUT_PATH', 'r') as f:
-                  content = f.read()
-              content = content.replace('%{LANGUAGES&TOOLS}%', '''$ICONS_HTML''')
-              with open('$OUTPUT_PATH', 'w') as f:
-                  f.write(content)
+          import sys
+          with open('$OUTPUT_PATH', 'r') as f:
+              content = f.read()
+          content = content.replace('%{LANGUAGES&TOOLS}%', '''$ICONS_HTML''')
+          with open('$OUTPUT_PATH', 'w') as f:
+              f.write(content)
             "
             echo "Successfully generated $OUTPUT_PATH with sorted icons"
           else
