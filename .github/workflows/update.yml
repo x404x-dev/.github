@@ -63,7 +63,7 @@ jobs:
           json_updated, icons_html = False, []
           for base in sorted(icon_map.keys(), key=lambda s: s.lower()):
               if base not in links:
-                  links[base], json_updated = "", True
+                  links[base], json_updated = '', True
               link = links[base].strip() if links[base].strip() != "" else f'https://github.com/{username}'
               data = icon_map[base]
 
