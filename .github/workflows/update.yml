@@ -1,43 +1,43 @@
 name: Generate Profile README.md
 
 on:
-    schedule:
-        - cron: "0 0 * * *"
-    workflow_dispatch:
-    push:
-        branches:
-            - main
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-    generate:
-        runs-on: ubuntu-latest
-        timeout-minutes: 5
-        steps:
-            - name: Checkout Repository
-              uses: actions/checkout@v3
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.TOKEN || secrets.GITHUB_TOKEN }}
 
-            - name: Generate README from Template
-              run: |
-                  USER_NAME=$(curl -s https://api.github.com/users/${{ github.repository_owner }} | jq -r '.name // .login')
-                  mkdir -p profile
+      - name: Generate README from Template
+        run: |
+          USERNAME="${{ github.repository_owner }}"
+          DISPLAYNAME=$(curl -s https://api.github.com/users/$USERNAME | jq -r '.name // .login')
+          mkdir -p profile
 
-                  TEMPLATE_PATH="src/README.md"
-                  OUTPUT_PATH="profile/README.md"
+          TEMPLATE_PATH="src/README.md"
+          OUTPUT_PATH="profile/README.md"
 
-                  if [ -f "$TEMPLATE_PATH" ]; then
-                    sed "s|%{NAME}%|$USER_NAME|g" "$TEMPLATE_PATH" > "$OUTPUT_PATH"
-                    echo "Successfully generated $OUTPUT_PATH"
-                  else
-                    echo "Error: Template file $TEMPLATE_PATH not found!"
-                    exit 1
-                  fi
+          if [ -f "$TEMPLATE_PATH" ]; then
+            sed -e "s|%{USERNAME}%|$USERNAME|g" -e "s|%{DISPLAYNAME}%|$DISPLAYNAME|g" "$TEMPLATE_PATH" > "$OUTPUT_PATH"
+            echo "Successfully generated $OUTPUT_PATH"
+          else
+            echo "Error: Template file $TEMPLATE_PATH not found!"
+            exit 1
+          fi
 
-            - name: Commit and Push Changes
-              run: |
-                  git config --global user.name "github-actions[bot]"
-                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
-                  git add profile/README.md
-                  git commit -m "docs: update profile/README.md with current name [skip ci]" || exit 0
-                  git push
-              env:
-                  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: update profile/README.md with current name [skip ci]" && git push)
