@@ -30,34 +30,71 @@ jobs:
           TEMPLATE_PATH="src/README.md"
           OUTPUT_PATH="profile/README.md"
 
-          ICONS_HTML=""
-          for icon in $(ls src/icons/*.svg | sort -f); do
-            filename=$(basename "$icon")
-            if [[ "$filename" == *-Dark.svg ]]; then
-              base="${filename%-Dark.svg}"
-              light_file="${base}-Light.svg"
-              if [ -f "src/icons/$light_file" ]; then
-                ICONS_HTML+="  <picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/$USERNAME/.github/refs/heads/main/src/icons/$filename\" /><img src=\"https://raw.githubusercontent.com/$USERNAME/.github/refs/heads/main/src/icons/$light_file\" alt=\"$base\" width=\"40\" height=\"40\"/></picture>&nbsp;\n"
-              fi
-            elif [[ "$filename" == *-Light.svg ]]; then
-              continue
-            else
-              name="${filename%.svg}"
-              ICONS_HTML+="  <picture><img src=\"https://raw.githubusercontent.com/$USERNAME/.github/refs/heads/main/src/icons/$filename\" alt=\"$name\" width=\"40\" height=\"40\"/></picture>&nbsp;\n"
-            fi
-          done
-
           if [ -f "$TEMPLATE_PATH" ]; then
             sed -e "s|%{USERNAME}%|$USERNAME|g" -e "s|%{DISPLAYNAME}%|$DISPLAYNAME|g" "$TEMPLATE_PATH" > "$OUTPUT_PATH"
             python3 -c "
-          import sys
-          with open('$OUTPUT_PATH', 'r') as f:
+          import os, json, sys
+
+          username, output_path = '$USERNAME', '$OUTPUT_PATH'
+          icons_dir, config_path = 'src/icons', 'src/icons.json'
+
+          links = {}
+          if os.path.exists(config_path):
+              try:
+                  with open(config_path, 'r', encoding='utf-8') as f:
+                      links = json.load(f)
+              except Exception:
+                  links = {}
+
+          files, icon_map = os.listdir(icons_dir) if os.path.exists(icons_dir) else [], {}
+          for filename in files:
+              if not filename.endswith('.svg'):
+                  continue
+              if filename.endswith('-Dark.svg'):
+                  base = filename[:-9]
+                  icon_map.setdefault(base, {})['dark'] = filename
+              elif filename.endswith('-Light.svg'):
+                  base = filename[:-10]
+                  icon_map.setdefault(base, {})['light'] = filename
+              else:
+                  base = filename[:-4]
+                  icon_map.setdefault(base, {})['single'] = filename
+
+          json_updated, icons_html = False, []
+          for base in sorted(icon_map.keys(), key=lambda s: s.lower()):
+              if base not in links:
+                  links[base], json_updated = "", True
+              link = links[base].strip() if links[base].strip() != "" else f'https://github.com/{username}'
+              data = icon_map[base]
+
+              if 'dark' in data and 'light' in data:
+                  dark_url = f'https://raw.githubusercontent.com/{username}/.github/refs/heads/main/src/icons/{data[\"dark\"]}'
+                  light_url = f'https://raw.githubusercontent.com/{username}/.github/refs/heads/main/src/icons/{data[\"light\"]}'
+                  html = f'  <a href=\"{link}\" target=\"_blank\" rel=\"noreferrer\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"{dark_url}\" /><img src=\"{light_url}\" alt=\"{base}\" width=\"40\" height=\"40\"/></picture></a>&nbsp;\n'
+              else:
+                  file_single = data.get('single', data.get('light', data.get('dark')))
+                  img_url = f'https://raw.githubusercontent.com/{username}/.github/refs/heads/main/src/icons/{file_single}'
+                  html = f'  <a href=\"{link}\" target=\"_blank\" rel=\"noreferrer\"><picture><img src=\"{img_url}\" alt=\"{base}\" width=\"40\" height=\"40\"/></picture></a>&nbsp;\n'
+              icons_html.append(html)
+
+          if json_updated:
+              sorted_links = {k: links[k] for k in sorted(links.keys(), key=lambda s: s.lower())}
+              with open(config_path, 'w', encoding='utf-8') as f:
+                  json.dump(sorted_links, f, indent=2, ensure_ascii=False)
+              echo_msg = 'Updated src/icons.json with new missing icon keys'
+          else:
+              echo_msg = 'src/icons.json is up to date'
+          final_html = ''.join(icons_html)
+
+          with open(output_path, 'r', encoding='utf-8') as f:
               content = f.read()
-          content = content.replace('%{LANGUAGES&TOOLS}%', '''$ICONS_HTML''')
-          with open('$OUTPUT_PATH', 'w') as f:
+          content = content.replace('%{LANGUAGES&TOOLS}%', final_html)
+
+          with open(output_path, 'w', encoding='utf-8') as f:
               f.write(content)
+          print(echo_msg)
             "
-            echo "Successfully generated $OUTPUT_PATH with sorted icons"
+            echo "Successfully generated $OUTPUT_PATH with sorted icons and links"
           else
             echo "Error: Template file $TEMPLATE_PATH not found!"
             exit 1
@@ -67,5 +104,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
-          file_pattern: 'profile/README.md'
-          commit_message: "docs: update profile/README.md with current name [skip ci]"
+          file_pattern: 'profile/README.md src/icons.json'
+          commit_message: "docs: update profile/README.md & icons.json [skip ci]"
