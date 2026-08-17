@@ -28,7 +28,7 @@
 </p>
 
 <details>
-  <summary>📊 <b>Most Used Languages</b></summary>
+  <summary><b>Most Used Languages</b></summary>
   <br>
   <p align="center"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&hide_values=true&theme=github_dark_dimmed" />
