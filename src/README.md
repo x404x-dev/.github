@@ -11,6 +11,8 @@
   <a href="https://youtube.com/@x404x-dev" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
   &nbsp;
   <a href="https://dsc.mcteam.io.vn" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  &nbsp;
+  <a href="https://paypal.me/x404xDev" target="_blank"><img src="https://img.shields.io/badge/Paypal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="Paypal" /></a>
 </p>
 
 ---
