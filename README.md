@@ -25,7 +25,6 @@ Repository này chứa mã nguồn, workflow tự động hóa và tài nguyên 
     ├── snake/
     ├── README.md
     └── icons.json
-
 ```
 
 ---
