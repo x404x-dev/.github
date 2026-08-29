@@ -17,17 +17,27 @@
 
 ---
 
-### 📌 What I Do
-- 🌐 **Web Development:** Building modern websites and personal portfolio projects.
-- 🤖 **Discord Bot Development:** Creating feature-rich moderation, entertainment, and utility bots.
-- 💻 **Minecraft Server Development:** Configuring plugins, optimizing performance, and building community servers.
+<table align="center" width="100%">
+  <tr>
+    <td align="center" valign="top">
+      <h3> 📌 What I Do </h3>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <p> 🌐 <b>Web Development:</b> Building modern websites and personal portfolio projects. </p>
+      <p> 🤖 <b>Discord Bot Development:</b> Creating feature-rich moderation, entertainment, and utility bots. </p>
+      <p> 💻 <b>Minecraft Server Development:</b> Configuring plugins, optimizing performance, and building community servers. </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 <table align="center" width="100%">
   <tr>
     <td align="center" valign="top">
-      <h3>🛠️ Skills & Statistics</h3>
+      <h3> 🛠️ Skills & Statistics </h3>
     </td>
   </tr>
   <tr>
@@ -38,8 +48,8 @@
   <tr>
     <td align="center" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&hide_values=true&theme=github_dark_dimmed" />
-        <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&hide_values=true&theme=default_repocard" alt="Top Languages" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&theme=github_dark_dimmed" />
+        <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&theme=default_repocard" alt="Top Languages" />
       </picture>
     </td>
   </tr>
@@ -47,9 +57,18 @@
 
 ---
 
-### 🐍 GitHub Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/%{USERNAME}%/.github/refs/heads/main/src/snake/snake-dark.svg" />
-  <img align="center" width="100%" src="https://raw.githubusercontent.com/%{USERNAME}%/.github/refs/heads/main/src/snake/snake.svg" alt="Snake Animation" />
-</picture>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" valign="top">
+      <h3> 🐍 GitHub Contributions </h3>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/%{USERNAME}%/.github/refs/heads/main/src/snake/snake-dark.svg" />
+        <img width="100%" src="https://raw.githubusercontent.com/%{USERNAME}%/.github/refs/heads/main/src/snake/snake.svg" alt="Snake Animation" />
+      </picture>
+    </td>
+  </tr>
+</table>
