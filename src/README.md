@@ -15,15 +15,14 @@
         &nbsp;
         <a href="https://paypal.me/x404xDev" target="_blank"><img src="https://img.shields.io/badge/Paypal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="Paypal" /></a>
       </p>
-      <br>
     </td>
   </tr>
 
+  <tr><td></td></tr>
+
   <tr>
     <td align="left" valign="top">
-      <hr>
-      <h3 align="center"> 📌 What I Do </h3>
-      <hr>
+      <h3 align="center"> 📌 What I Do </h3><h1></h1>
       <details>
         <summary><b>🌐 Web Development</b></summary>
         <p> └─ Building modern websites and personal portfolio projects. </p>
@@ -40,26 +39,25 @@
     </td>
   </tr>
 
+  <tr><td></td></tr>
+
   <tr>
     <td align="center" valign="top">
-      <hr>
-      <h3 align="center"> 💻 Languages & Tools </h3>
-      <hr>
+      <h3 align="center"> 💻 Languages & Tools </h3><h1></h1>
       %{LANGUAGES&TOOLS}%
       <br>
     </td>
   </tr>
 
+  <tr><td></td></tr>
+
   <tr>
     <td align="center" valign="top">
-      <hr>
-      <h3 align="center"> 🐍 GitHub Contributions </h3>
-      <hr>
+      <h3 align="center"> 🐍 GitHub Contributions </h3><h1></h1>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/%{USERNAME}%/.github/refs/heads/main/src/snake/snake-dark.svg" />
         <img width="100%" src="https://raw.githubusercontent.com/%{USERNAME}%/.github/refs/heads/main/src/snake/snake.svg" alt="Snake Animation" />
       </picture>
-      <br>
     </td>
   </tr>
 </table>
