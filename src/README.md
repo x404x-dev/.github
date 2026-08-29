@@ -26,14 +26,16 @@
 
 ### 🛠️ Skills & Statistics
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td align="center" valign="top">
       <h4>💻 Languages & Tools</h4>
       <hr>
       %{LANGUAGES&TOOLS}%
     </td>
-    <td width="50%" valign="top" align="center">
+  </tr>
+  <tr>
+    <td align="center" valign="top">
       <h4>📊 Most Used Languages</h4>
       <hr>
       <picture>
