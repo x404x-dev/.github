@@ -2,7 +2,6 @@
   <tr>
     <td align="center" valign="top">
       <h1 align="center">👋 Hi, I'm %{DISPLAYNAME}%!</h1>
-      <hr>
       <p align="center">
         🚀 <b>Indie Developer</b> | 👑 Owner of <b>Karasu's Team</b><br>
         <i>An aspiring developer passionate about building web apps, Discord bots, and Minecraft servers.</i>
@@ -22,6 +21,7 @@
 
   <tr>
     <td align="left" valign="top">
+      <hr>
       <h3 align="center"> 📌 What I Do </h3>
       <hr>
       <details>
@@ -42,6 +42,7 @@
 
   <tr>
     <td align="center" valign="top">
+      <hr>
       <h3 align="center"> 💻 Languages & Tools </h3>
       <hr>
       %{LANGUAGES&TOOLS}%
@@ -51,6 +52,7 @@
 
   <tr>
     <td align="center" valign="top">
+      <hr>
       <h3 align="center"> 🐍 GitHub Contributions </h3>
       <hr>
       <picture>
