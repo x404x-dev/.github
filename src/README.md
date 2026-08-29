@@ -28,7 +28,10 @@
   <tr>
     <td align="center" valign="top">
       <h3>🛠️ Skills & Statistics</h3>
-      <hr>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
       %{LANGUAGES&TOOLS}%
     </td>
   </tr>
