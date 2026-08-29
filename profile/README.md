@@ -15,15 +15,14 @@
         &nbsp;
         <a href="https://paypal.me/x404xDev" target="_blank"><img src="https://img.shields.io/badge/Paypal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="Paypal" /></a>
       </p>
-      <br>
     </td>
   </tr>
 
+  <tr><td></td></tr>
+
   <tr>
     <td align="left" valign="top">
-      <hr>
-      <h3 align="center"> 📌 What I Do </h3>
-      <hr>
+      <h3 align="center"> 📌 What I Do </h3><h1></h1>
       <details>
         <summary><b>🌐 Web Development</b></summary>
         <p> └─ Building modern websites and personal portfolio projects. </p>
@@ -40,26 +39,25 @@
     </td>
   </tr>
 
+  <tr><td></td></tr>
+
   <tr>
     <td align="center" valign="top">
-      <hr>
-      <h3 align="center"> 💻 Languages & Tools </h3>
-      <hr>
+      <h3 align="center"> 💻 Languages & Tools </h3><h1></h1>
       <a href="https://wiki.botdesignerdiscord.com" target="_blank" rel="noreferrer"><picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="BotDesignerForDiscord" width="40" height="40"/></picture></a> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/CSS.svg" alt="CSS" width="40" height="40"/></picture></a> <a href="https://discord.js.org" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/DiscordJS-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/DiscordJS-Light.svg" alt="DiscordJS" width="40" height="40"/></picture></a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/ExpressJS-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/ExpressJS-Light.svg" alt="ExpressJS" width="40" height="40"/></picture></a> <a href="https://github.com" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Github-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Github-Light.svg" alt="Github" width="40" height="40"/></picture></a> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/HTML.svg" alt="HTML" width="40" height="40"/></picture></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/JavaScript.svg" alt="JavaScript" width="40" height="40"/></picture></a> <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"><picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/MongoDB.svg" alt="MongoDB" width="40" height="40"/></picture></a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/NodeJS-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/NodeJS-Light.svg" alt="NodeJS" width="40" height="40"/></picture></a> <a href="https://www.python.org" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Python-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Python-Light.svg" alt="Python" width="40" height="40"/></picture></a> <a href="https://vercel.com" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Vercel-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Vercel-Light.svg" alt="Vercel" width="40" height="40"/></picture></a> <a href="https://code.visualstudio.com" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/VSCode-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/VSCode-Light.svg" alt="VSCode" width="40" height="40"/></picture></a> 
       <br>
     </td>
   </tr>
 
+  <tr><td></td></tr>
+
   <tr>
     <td align="center" valign="top">
-      <hr>
-      <h3 align="center"> 🐍 GitHub Contributions </h3>
-      <hr>
+      <h3 align="center"> 🐍 GitHub Contributions </h3><h1></h1>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake-dark.svg" />
         <img width="100%" src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/snake/snake.svg" alt="Snake Animation" />
       </picture>
-      <br>
     </td>
   </tr>
 </table>
