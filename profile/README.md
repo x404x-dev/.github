@@ -1,7 +1,7 @@
 <table align="center" width="100%">
   <tr>
     <td align="center" valign="top">
-      <h1 align="center">👋 Hi, I'm Marlernix Mc!</h1>
+      <h2 align="center">👋 Hi, I'm Marlernix Mc!</h2>
       <p align="center">
         🚀 <b>Indie Developer</b> | 👑 Owner of <b>Karasu's Team</b><br>
         <i>An aspiring developer passionate about building web apps, Discord bots, and Minecraft servers.</i>
