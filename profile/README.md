@@ -24,8 +24,14 @@
 
 ---
 
-### 🛠️ Languages & Tools
-<p align="left">
+### 🛠️ Skills & Statistics
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4 align="center">💻 Languages & Tools</h4>
+      <br>
+      <p align="center">
   <a href="https://wiki.botdesignerdiscord.com" target="_blank" rel="noreferrer"><picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/BotDesignerForDiscord.svg" alt="BotDesignerForDiscord" width="40" height="40"/></picture></a>&nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><picture><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/CSS.svg" alt="CSS" width="40" height="40"/></picture></a>&nbsp;
   <a href="https://discord.js.org" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/DiscordJS-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/DiscordJS-Light.svg" alt="DiscordJS" width="40" height="40"/></picture></a>&nbsp;
@@ -39,14 +45,20 @@
   <a href="https://vercel.com" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Vercel-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/Vercel-Light.svg" alt="Vercel" width="40" height="40"/></picture></a>&nbsp;
   <a href="https://code.visualstudio.com" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/VSCode-Dark.svg" /><img src="https://raw.githubusercontent.com/x404x-dev/.github/refs/heads/main/src/icons/VSCode-Light.svg" alt="VSCode" width="40" height="40"/></picture></a>&nbsp;
 
-</p>
-
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_values=true&theme=github_dark_dimmed" />
-    <img src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_values=true&theme=default_repocard" alt="Top Languages" />
-  </picture>
-</p>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4 align="center">📊 Most Used Languages</h4>
+      <br>
+      <p align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=github_dark_dimmed" />
+          <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=default_repocard" alt="Top Languages" />
+        </picture>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
