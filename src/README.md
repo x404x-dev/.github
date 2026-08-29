@@ -28,22 +28,18 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h4 align="center">💻 Languages & Tools</h4>
+    <td width="50%" valign="top" align="center">
+      <h4>💻 Languages & Tools</h4>
       <br>
-      <p align="center">
-%{LANGUAGES&TOOLS}%
-      </p>
+      %{LANGUAGES&TOOLS}%
     </td>
-    <td width="50%" valign="top">
-      <h4 align="center">📊 Most Used Languages</h4>
+    <td width="50%" valign="top" align="center">
+      <h4>📊 Most Used Languages</h4>
       <br>
-      <p align="center">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&hide_values=true&theme=github_dark_dimmed" />
-          <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&hide_values=true&theme=default_repocard" alt="Top Languages" />
-        </picture>
-      </p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&hide_values=true&theme=github_dark_dimmed" />
+        <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&hide_values=true&theme=default_repocard" alt="Top Languages" />
+      </picture>
     </td>
   </tr>
 </table>
