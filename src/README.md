@@ -45,14 +45,6 @@
       %{LANGUAGES&TOOLS}%
     </td>
   </tr>
-  <tr>
-    <td align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&theme=github_dark_dimmed" />
-        <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=%{USERNAME}%&layout=compact&hide_title=true&theme=default_repocard" alt="Top Languages" />
-      </picture>
-    </td>
-  </tr>
 </table>
 
 ---
