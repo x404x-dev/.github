@@ -24,20 +24,25 @@
     </td>
   </tr>
   <tr>
-    <td valign="top">
-      <p> 🌐 <b>Web Development:</b> Building modern websites and personal portfolio projects. </p>
-      <p> 🤖 <b>Discord Bot Development:</b> Creating feature-rich moderation, entertainment, and utility bots. </p>
-      <p> 💻 <b>Minecraft Server Development:</b> Configuring plugins, optimizing performance, and building community servers. </p>
+    <td align="left" valign="top">
+      <details>
+        <summary><b>🌐 Web Development</b></summary>
+        <p> └─ Building modern websites and personal portfolio projects. </p>
+      </details>
+      <details>
+        <summary><b>🤖 Discord Bot Development</b></summary>
+        <p> └─ Creating feature-rich moderation, entertainment, and utility bots. </p>
+      </details>
+      <details>
+        <summary><b>💻 Minecraft Server Development</b></summary>
+        <p> └─ Configuring plugins, optimizing performance, and building community servers. </p>
+      </details>
     </td>
   </tr>
-</table>
 
----
-
-<table align="center" width="100%">
   <tr>
     <td align="center" valign="top">
-      <h3> 🛠️ Skills & Statistics </h3>
+      <h3> 💻 Languages & Tools </h3>
     </td>
   </tr>
   <tr>
@@ -45,11 +50,7 @@
       %{LANGUAGES&TOOLS}%
     </td>
   </tr>
-</table>
 
----
-
-<table align="center" width="100%">
   <tr>
     <td align="center" valign="top">
       <h3> 🐍 GitHub Contributions </h3>
@@ -64,3 +65,4 @@
     </td>
   </tr>
 </table>
+
