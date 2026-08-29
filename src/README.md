@@ -22,7 +22,7 @@
 
   <tr>
     <td align="left" valign="top">
-      <h3 align="center"> 📌 What I Do </h3><h1></h1>
+      <h2 align="center"> 📌 What I Do </h2>
       <details>
         <summary><b>🌐 Web Development</b></summary>
         <p> └─ Building modern websites and personal portfolio projects. </p>
@@ -35,7 +35,6 @@
         <summary><b>💻 Minecraft Server Development</b></summary>
         <p> └─ Configuring plugins, optimizing performance, and building community servers. </p>
       </details>
-      <br>
     </td>
   </tr>
 
@@ -43,9 +42,8 @@
 
   <tr>
     <td align="center" valign="top">
-      <h3 align="center"> 💻 Languages & Tools </h3><h1></h1>
+      <h2 align="center"> 💻 Languages & Tools </h2>
       %{LANGUAGES&TOOLS}%
-      <br>
     </td>
   </tr>
 
@@ -53,7 +51,7 @@
 
   <tr>
     <td align="center" valign="top">
-      <h3 align="center"> 🐍 GitHub Contributions </h3><h1></h1>
+      <h2 align="center"> 🐍 GitHub Contributions </h2>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/%{USERNAME}%/.github/refs/heads/main/src/snake/snake-dark.svg" />
         <img width="100%" src="https://raw.githubusercontent.com/%{USERNAME}%/.github/refs/heads/main/src/snake/snake.svg" alt="Snake Animation" />
