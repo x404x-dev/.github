@@ -48,8 +48,8 @@
   <tr>
     <td align="center" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&theme=github_dark_dimmed" />
-        <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&theme=default_repocard" alt="Top Languages" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&theme=github_dark_dimmed" />
+        <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&theme=default_repocard" alt="Top Languages" />
       </picture>
     </td>
   </tr>
