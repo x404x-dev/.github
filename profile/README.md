@@ -41,14 +41,12 @@
 
 </p>
 
-<details>
-  <summary><b>Most Used Languages</b></summary>
-  <br>
-  <p align="center"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=github_dark_dimmed" />
-    <img width="500px" src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_title=true&hide_values=true&theme=default_repocard" alt="Top Languages" />
-  </picture></p>
-</details>
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_values=true&theme=github_dark_dimmed" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs?username=x404x-dev&layout=compact&hide_values=true&theme=default_repocard" alt="Top Languages" />
+  </picture>
+</p>
 
 ---
 
